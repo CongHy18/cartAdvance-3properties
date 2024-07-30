@@ -1,0 +1,132 @@
+/* REPONSIVE */
+@media(max-width:1300px) { } 
+@media(max-width:1001px){
+ .header { padding: 10px 0; } 
+ .col__menu .search, .header__bottom { display: none; } 
+ .search { border: 1px solid var(--color-main); } 
+ .watched { width: 100px; border-radius: 5px; } 
+ }
+@media(max-width:850px){
+ .x { display: none !important; } 
+ .footer__news, .col__left, .col__right { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; padding: 0 15px !important; } 
+ .box_category_list { max-height: 200px; } 
+ }
+@media(max-width:550px){
+ .tab__product { gap: 10px; grid-template-columns: repeat(3, minmax(0, 1fr)); } 
+ .contact-article { flex-direction: column-reverse; } 
+ .image__cat { margin: auto; width: 120px; height: 135px; } 
+ .name__cat a { font-size: 13px; } 
+ .col__header__left { display: none; } 
+ .info__header { justify-content: center !important; } 
+ .title__list { flex-wrap: wrap; margin-bottom: 15px; } 
+ .title__list .title-main { width: 100%; margin-bottom: 10px !important; } 
+ .redicrect__category { padding: 10px; } 
+ .album { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; padding: 0 15px !important; } 
+ .banner-Cat { margin-bottom: 15px !important; } 
+ .control-tiktok button.owl-prev { left: 0; background: #000; } 
+.control-tiktok button.owl-next { right: 0; background: #000; } 
+.control-cat { top: calc(65% - 45px / 2); } 
+.control-cat button{width: 30px;height: 30px;}
+
+
+}
+@media(max-width:440px){
+ .logo-menu { display: block; max-width: 250px; } 
+ .search input { height: 30px; width: calc(100% - 70px); font-size: 12px; } 
+ .search p { height: 30px; line-height: 30px; width: 70px; border-radius: 5px; } 
+ .watched { height: 40px; } 
+ .watched { width: 90px; border-radius: 5px; } 
+ .search-res-w100 { width: calc(100% - 95px); border-radius: 0.25rem; } 
+ .header .header__top { padding: 0; } 
+
+ }
+@media(max-width:391px){
+ .image__cat { margin: auto; width: 110px; height: 120px; } 
+ }
+
+
+/* REPONSIVE DEFAUT */
+@media(max-width:1001px){
+ .toolbar, .btn-social { display: block; } 
+ .scrollToTop { display: none; } 
+ }
+@media only screen and (max-width: 850px){
+ .wrap-container { position: relative; overflow: hidden; } 
+ .contact-map { height: 300px; } 
+ }
+ @media only screen and (max-width: 991px){
+ .menu-res { display: block; } 
+ }
+ @media only screen and (max-width: 991px){
+ .cart-fixed { bottom: 320px !important; display: none; } 
+ }
+ @media only screen and (max-width: 991px){
+ .grid-product { gap: 15px; grid-template-columns: repeat(3, minmax(0, 1fr)); } 
+ }
+ @media only screen and (max-width: 575px){
+ .grid-product, .grid-product-v2 { gap: 10px; grid-template-columns: repeat(2, minmax(0, 1fr)); } 
+ }
+ @media only screen and (max-width: 767px){
+ .cart-pro-detail a { width: 49%; } 
+ .cart-pro-detail a:first-child { margin-right: 0px; } 
+ .cart-pro-detail a i { display: none; } 
+ }
+ @media only screen and (max-width: 575px){
+ .news .news-image { margin-bottom: 1rem; } 
+ }
+ @media only screen and (max-width: 991px){
+ .img-auto img { width: auto !important; height: auto !important; } 
+ }
+ @media only screen and (max-width: 991px){
+ .footer__powered, .footer__statistic { text-align: center !important; } 
+ }
+ @media only screen and (max-width: 850px){
+ .py50 { padding: 30px 0px; } 
+ .py60 { padding: 30px 0px; } 
+ .py70 { padding: 30px 0px; } 
+ }
+ @media only screen and (max-width: 850px){
+ .mb-50 { margin-bottom: 30px; } 
+ }
+ @media only screen and (max-width: 850px){
+ .mt-50 { margin-top: 30px; } 
+ }
+ @media only screen and (max-width: 850px){
+ .mgb-res { margin-bottom: 30px !important; } 
+ }@media only screen and (max-width: 991px){
+ .top-cart { margin-bottom: 2rem; } 
+ }@media only screen and (max-width: 575px){
+ .name-procart a { font-size: 13px; } 
+ }@media only screen and (max-width: 767px){
+ .quantity-procart { text-align: right; } 
+ }@media only screen and (max-width: 767px){
+ .price-procart { display: none; } 
+ }@media only screen and (max-width: 767px){
+ .price-procart-rp { display: block; } 
+ }@media only screen and (max-width: 575px){
+ .procart-label { font-size: 13px; } 
+ }
+ @media only screen and (min-width: 768px){
+ .procart-label .quantity-procart p:first-child { display: block; } 
+ }
+ @media only screen and (max-width: 767px){
+ .procart-label .quantity-procart p:first-child { display: none; } 
+ }
+ @media only screen and (min-width: 768px){
+ .procart-label .quantity-procart p:last-child { display: none; } 
+ }
+ @media only screen and (max-width: 767px){
+ .procart-label .quantity-procart p:last-child { display: block; } 
+ }@media only screen and (min-width: 992px){
+ .comment-item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; } 
+ }@media only screen and (max-width: 991px){
+ .comment-item-poster { width: auto; margin-right: 0px; margin-bottom: 0.5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; } 
+ }@media only screen and (max-width: 991px){
+ .comment-item-letter { width: 40px; height: 40px; line-height: 40px; font-size: 13px; margin-bottom: 0; } 
+ }@media only screen and (max-width: 991px){
+ .comment-item-name { margin-bottom: 0px; margin-left: 10px; margin-right: 10px; } 
+ }@media only screen and (max-width: 991px){
+ .comment-item-information { width: 100%; } 
+ }@media only screen and (max-width: 991px) { /* .header__top, .hotline__header { display: none; } */ } @media only screen and (max-width: 991px){
+ .menu { display: none; } 
+ }
